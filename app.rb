@@ -20,7 +20,6 @@ class App < Sinatra::Base
     @number.times {|x| phrase_array << @phrase }
     phrase_array.join(" ")
   end
-end
     
      
      
