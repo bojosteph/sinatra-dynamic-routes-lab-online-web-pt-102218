@@ -19,6 +19,7 @@ class App < Sinatra::Base
      array = []
      array << @phrase
      
+     
   end
 
 end
