@@ -20,6 +20,9 @@ class App < Sinatra::Base
     @number.times {|x| phrase_array << @phrase }
     phrase_array.join(" ")
   end
+  
+  get "/say/:word1/:word2/:word3/:word4/:word5" do
+    
     
      
      
