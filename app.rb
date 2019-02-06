@@ -37,6 +37,8 @@ class App < Sinatra::Base
     @number2 = params[:number2].to_i
     
     case @operation
+    when add
+      @
     
     
   end
